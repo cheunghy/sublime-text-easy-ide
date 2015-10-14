@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+/*
+ * ensogo/${1:name}.scss
+ *
+ * This file is a part of ensogo css library.
+ *
+ * ${2:comment}
+ *
+ */$0
+]]></content>
+  <tabTrigger>esgbc</tabTrigger>
+  <scope>source.scss</scope>
+</snippet>

@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+#ifndef ${1:${TM_FILENAME/([a-z0-9_]+)\.([a-z0-9]+)?/\U$1_H__\E/ig)}}
+#define ${1:${TM_FILENAME/([a-z0-9_]+)\.([a-z0-9]+)?/\U$1_H__\E/ig)}}
+
+$0
+
+#endif /* ${1:${TM_FILENAME/([a-z0-9_]+)\.([a-z0-9]+)?/\U$1_H__\E/ig)}} */
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>once</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.c, source.c++, source.objc, source.objc++</scope>
+</snippet>
