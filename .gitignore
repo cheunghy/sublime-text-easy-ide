@@ -1,0 +1,24 @@
+# ignore everything
+*
+
+# But
+
+# Package list
+!Package Control.sublime-settings
+
+# Snippets
+!snippets/**/*
+
+# Gitignore itself
+!.gitignore
+
+# Keymaps
+!Default (OSX).sublime-keymap
+
+# Package configurations
+!Git.sublime-settings
+!GitGutter.sublime-settings
+!Emmet.sublime-settings
+!gitignorer.sublime-settings
+!trailing_spaces.sublime-settings
+!Preferences.sublime-settings

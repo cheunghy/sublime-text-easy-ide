@@ -1,0 +1,19 @@
+[
+    {
+        "keys": ["ctrl+;", "<character>"],
+        "command": "easy_motion",
+        "args": {"select_text": false}
+    },
+    {
+        "keys": ["ctrl+option+;", "<character>"],
+        "command": "easy_motion",
+        "args": {"select_text": true}
+    },
+    {   "keys": ["ctrl+super+a"],
+        "command": "alignment"
+    },
+    { "keys": ["ctrl+s"], "command": "show_panel", "args": {"panel": "find", "reverse": false}},
+    { "keys": ["ctrl+r"], "command": "show_panel", "args": {"panel": "find", "reverse": true}},
+    { "keys": ["command+\\"], "command": "reveal_in_side_bar"},
+    { "keys": ["ctrl+c", "&", "ctrl+n"], "command": "new_snippet"}
+]

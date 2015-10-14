@@ -1,0 +1,85 @@
+{
+	"auto_complete_selector": "source, text",
+	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
+	"detect_indentation": true,
+	"ensure_newline_at_eof_on_save": true,
+	"extra_file_exclude_patterns":
+	[
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		".DS_Store",
+		"*.class",
+		"*.psd",
+		"*.db",
+		"*.sublime-workspace"
+	],
+	"extra_folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS"
+	],
+	"file_exclude_patterns":
+	[
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		".DS_Store",
+		"*.class",
+		"*.psd",
+		"*.db",
+		"*.sublime-workspace",
+		"*.log",
+	],
+	"folder_exclude_patterns":
+	[
+	  "scssc",
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		"tmp"
+	],
+	"font_size": 13,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"index_files": true,
+	"rulers":
+	[
+		80
+	],
+	"scroll_past_end": true,
+	"soda_folder_icons": true,
+	"tab_size": 2,
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"use_tab_stops": true
+}
